@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && lite-server"
+
+  },
+  "dependencies": {
+    "commonjs": "^0.0.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

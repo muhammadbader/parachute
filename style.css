@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: seagreen;
+}
+
+#plane {
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+#game {
+  position: relative;
+  width: calc(100% - 100px);
+  height: calc(100% - 200px);
+  background-color: lightskyblue;
+  border: 2px solid #000;
+}
+
+#game img:first-child {
+  width: 100%;
+  height: 100%;
+}
+
+#boat {
+  position: absolute;
+  bottom: 100px;
+  width: 100px;
+  height: 50px;
+}
+
+#boat img {
+  width: 100%;
+  height: 100%;
+}
+
+.parachutist {
+  position: absolute;
+  width: 50px;
+  aspect-ratio: 10/14;
+  background-image: url("./resources/parachutist.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+}
+
+#high-score {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+}
+
+#sea {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 110px;
+  background-color: skyblue;
+  opacity: 0.5;
+}
+
+#sea img {
+  width: 100%;
+  height: 100%;
+}
+
+.flipped {
+  transform: scaleX(-1);
+}
